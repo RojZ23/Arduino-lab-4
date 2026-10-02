@@ -1,1 +1,3 @@
 # Arduino-lab-4
+Reflection
+When testing the pushbutton, I noticed that one press sometimes created several rapid HIGH and LOW readings instead of only one clean change. This is called switch bounce, which happens because the metal contacts inside a mechanical switch briefly vibrate before settling. The bounce appeared to last only a few milliseconds, so adding a short debounce delay helps the Arduino count one press correctly. In everyday technology, buttons can recognize short presses, long presses, double presses, repeated presses, and button combinations. For example, I could create a secret button code such as short press, short press, long press, and short press; if the correct pattern is entered, the LED could turn on or blink to show that it is unlocked
